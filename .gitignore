@@ -1,0 +1,19 @@
+# Gradle / Kotlin
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+local.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
