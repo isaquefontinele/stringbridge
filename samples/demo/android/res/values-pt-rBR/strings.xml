@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Bem-vindo de volta</string>
+    <string name="greeting">Olá, %1$s!</string>
+    <string name="sync_status">%1$d notas sincronizadas de %2$s</string>
+    <plurals name="notes_count">
+        <item quantity="one">%d nota</item>
+        <item quantity="other">%d notas</item>
+    </plurals>
+</resources>

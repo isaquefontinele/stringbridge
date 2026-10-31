@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Demo Notes</string>
+    <string name="welcome_title">Welcome back</string>
+    <string name="greeting">Hello, %1$s!</string>
+    <string name="sync_status">Synced %1$d notes from %2$s</string>
+    <plurals name="notes_count">
+        <item quantity="one">%d note</item>
+        <item quantity="other">%d notes</item>
+    </plurals>
+</resources>
