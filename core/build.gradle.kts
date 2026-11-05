@@ -12,4 +12,7 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+    val samples = rootProject.layout.projectDirectory.dir("samples")
+    inputs.dir(samples).withPropertyName("samples")
+    systemProperty("stringbridge.samples", samples.asFile.absolutePath)
 }
